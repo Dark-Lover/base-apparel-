@@ -1,6 +1,4 @@
 :root {
-  --desktop: 1440px;
-  --mobile: 375px;
   --primary: rgb(206, 151, 151);
   --soft-pr: hsl(0, 93%, 68%);
   --neutral: hsl(0, 6%, 24%);
@@ -142,7 +140,7 @@ body {
 }
 
 #error {
-  display: hidden;
+  display: none;
   margin-top: 7px;
   font-size: 10px;
   color: var(--soft-pr);
